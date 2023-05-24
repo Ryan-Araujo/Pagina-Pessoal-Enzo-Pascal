@@ -1,0 +1,119 @@
+body {
+    margin:50px auto;
+    padding: 0;
+   
+  }
+
+.btn{
+    margin-top: 10px;
+    background-color: #0badaa;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+.btn:hover {
+    background-color: #05c0a4;
+  }
+
+.foto-enzo{
+    text-align: center;
+}
+.ola{
+    font-size: 1.5rem;
+    color: #0badaa;
+    font-weight: inherit;
+  }
+
+.topico{
+    color:#293651;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+p {
+    font-weight: inherit;
+}
+
+/* Media Queries */
+
+/* -- medium -- */
+@media (min-width: 720px) { 
+    .container{
+        width: 700px;
+        text-align: justify;
+        margin:50px auto;
+
+    }
+
+    .ola{
+        font-size: 1.5rem;
+        color: #0badaa;
+        font-weight: inherit;
+      }
+
+      .conteudo{
+        color:#293651;
+        width: 700px;
+        text-align: justify;
+        margin:50px auto;
+      }
+
+   
+
+    .btn{
+        width: 250px;
+    }
+  }
+
+
+/* -- large -- */
+@media (min-width: 960px) {
+    .container{
+        width: 700px;
+        text-align: justify;
+        margin:50px auto;
+    }
+    .conteudo{
+        color:#293651;
+        width: 700px;
+        text-align: justify;
+        margin:50px auto;
+      }
+    
+    .ola{
+        font-size: 1.5rem;
+        color: #0badaa;
+        font-weight: inherit;
+      } 
+
+    
+    .btn{
+        width: 300px;
+    }
+  }
+  
+
+  /* -- x-large -- */
+@media (min-width: 1200px) {
+    .container{
+        width: 700px;
+        text-align: justify;
+        margin:50px auto;
+              
+    }
+    .ola{
+        font-size: 1.5rem;
+        color: #0badaa;
+        font-weight: inherit;
+      }
+
+    .conteudo{
+        color:#293651;
+        width: 700px;
+        text-align: justify;
+        margin:50px auto;
+      }
+  }

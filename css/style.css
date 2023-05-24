@@ -1,0 +1,60 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.container{
+  width: 700px;
+  text-align: justify;
+  margin:50px auto;
+  
+}
+.container h1{
+  color:#293651;
+}
+
+.experiencia{
+  color:#837a7c;
+}
+
+.ola{
+  font-size: 1.5rem;
+  color: #0badaa;
+  font-weight: inherit;
+}
+.cargo{
+  font-weight: inherit;
+}
+
+.btn{
+  margin-top: 10px;
+  background-color: #0badaa;
+  color: white;
+  border: none;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #05c0a4;
+}
+
+.foto-enzo{
+  text-align: center;
+}
+
+.conteudo{
+  color:#293651;
+  width: 700px;
+  text-align: justify;
+  margin:50px auto;
+}
+
+h3{
+  color:#293651;
+}
+
+
