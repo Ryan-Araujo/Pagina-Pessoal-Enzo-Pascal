@@ -1,0 +1,52 @@
+.background {
+  background-color: #2e2d4c;
+  background-image: url(../images/3409297.jpg);
+  background-attachment: fixed;
+}
+
+.container {
+  width: 72%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.cabecalho {
+  text-align: center;
+  color: #ffff;
+  margin: auto;
+  padding: 30px;
+}
+.logo img {
+  width: 220px;
+}
+.navigation li {
+  display: inline-block;
+  width: 150px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.navigation li a:link .navigation li a:visited {
+  color: gray;
+  text-decoration: none;
+}
+.navigation li a:hover {
+  color: #494848;
+  text-decoration: underline;
+}
+.navigation li a:active {
+  color: #2e2d4c;
+  text-decoration: underline;
+}
+.foto-enzo img {
+  width: 220px;
+}
+.titulo {
+  font-size: 1.9rem;
+  margin-top: 25px;
+}
+.fonte-media {
+  font-size: 1.2rem;
+}
